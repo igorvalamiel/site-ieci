@@ -1,0 +1,19 @@
+@font-face {
+    font-family: regularTerminal;
+    src: url(ShareTech-Regular.ttf);
+}
+@font-face {
+    font-family: grotescTerminal;
+    src: url(terminal-grotesque.grotesque-regular.ttf);
+}
+
+body {
+    font-family: regularTerminal;
+    color: rgb(0, 173, 0);
+    background-color: rgb(8, 8, 8);
+}
+
+h1{
+    font-family: grotescTerminal;
+    font-size: 100px;
+}
