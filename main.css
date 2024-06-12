@@ -28,6 +28,7 @@ h1{
 
 .drop_btn {
     background-color: rgb(0, 173, 0);
+    color: white;
     border: none;
     border-radius: 5px ;
     background-size: cover;
