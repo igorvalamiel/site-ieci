@@ -28,7 +28,10 @@ h1{
 
 .drop_btn {
     background-color: rgb(0, 173, 0);
-    color: white;
+    font-family: regularTerminal;
+    font-size: medium;
+    font-weight: 1000;
+    color: rgb(34, 34, 34);
     border: none;
     border-radius: 5px ;
     background-size: cover;
@@ -49,4 +52,15 @@ h1{
 .txt {
     margin: 1%;
     margin-top: 0.5%;
+}
+
+.subtitle {
+    font-size: large;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.citation {
+    text-align: left;
+    font-style: italic;
 }
