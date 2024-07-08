@@ -35,33 +35,33 @@ body {
 
 #giro{
     padding-left: 28%;
-    padding-top: 11%;
-    position: absolute; margin: auto; left: 0; right: 0; top: 5; 
+    padding-top: 20%;
+    position: absolute; margin: auto; left: 0; right: 0; top: 5;
 }
 
 .loader {
-    width: 150px;
-    aspect-ratio: 1;
-    display: grid;
-    color: black;
-    background: radial-gradient(farthest-side, currentColor calc(100% - 15px),#0000 calc(100% - 15px) 0);
-    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 25px),#000 calc(100% - 100px));
-    border-radius: 50%;
-    animation: l19 2.5s infinite linear;
-  }
-.loader::before,
-.loader::after {    
-    content: "";
-    grid-area: 1/1;
-    background:
-      linear-gradient(currentColor 0 0) center,
-      linear-gradient(currentColor 0 0) center;
-    background-size: 100% 25px,25px 100%;
-    background-repeat: no-repeat;
-  }
-.loader::after {
-     transform: rotate(45deg);
-  }
-@keyframes l19 { 
-    100%{transform: rotate(1turn)}
-  }
+    border: 8px solid #000000;
+    border-top: 8px solid #000000;
+    border-radius: 90%;
+    width: 50%;
+    height: 50%;
+    animation: spin 2s linear infinite;
+}
+
+.loader2 {
+    border: 8px solid #2d2d2d;
+    border-top: 8px solid #2d2d2d;
+    border-radius: 90%;
+    width: 50%;
+    height: 50%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
