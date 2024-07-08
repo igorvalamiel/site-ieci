@@ -17,6 +17,14 @@ body {
     background-color: rgb(8, 8, 8);
 }
 
+a {
+    color: rgb(15, 120, 15);
+}
+
+a:hover {
+    color: rgb(142, 142, 142);
+}
+
 h1{
     font-family: grotescTerminal;
     font-size: 80px;
@@ -29,24 +37,25 @@ h1{
 .drop_btn {
     background-color: rgb(0, 173, 0);
     font-family: regularTerminal;
-    font-size: medium;
+    font-size: large;
     font-weight: 1000;
     color: rgb(34, 34, 34);
     border: none;
-    border-radius: 5px ;
+    border-radius: 5px;
     background-size: cover;
 }
 
 .drop_txt {
     background-color: rgb(34, 34, 34);
     list-style: none;
-    margin: 10px;
+    margin: 20px;
     margin-left: -5%;
     margin-right: -2.5%;
     border-radius: 10px;
+    border: 10px;
     text-align: justify;
     text-indent: 1%;
-    display: none;
+    display: block /*adjust this to none to make the btn function*/;
 }
 
 .txt {
