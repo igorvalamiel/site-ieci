@@ -17,24 +17,23 @@
     <h3><i>Hacking</i></h3>
     <p>É o termo usado para descrever a invasão de redes computacionais e dispositivos digitais\ de forma não autorizada pelo proprietário, comprometento a integridade e a segurança das informações ali guardadas.</p>
 
-
     <h2>Tipos de Hacker</h2>
     <p>Clique para descobrir mais!</p>
     <h3><strong>Categorias</strong></h3>
     <ul class="drop_list">
         <li class="drop_item">
-            <ul><h4><button type="button" class="drop_btn" onclick="">White Hats</button></h4></ul><li class="drop_txt"><p class="txt">Também conhecidos como Hackers éticos, os White Hats são profissionais autorizados e pagos para procurar vulnerabilidades no sistema do contratante. Baseando-se em critérios éticos para não invadir a privacidade dos usuários daquela rede, eles usam suas metodologias, como testes de invasão, para identificar brechas que possibilitam ações maliciosas de outros hackers.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Black Hats</button></h4></ul><li class="drop_txt"><p class="txt">Assim como aqueles retratados em filmes e séries, os Black Hats são aqueles invasores mal intencionados que trabalham para modificar e destruir dados, distribuir vírus e comercializar dados pessoais. O objetivo da realizações desses crimes podem estar atrelados à obtenção de dinheiro, diversão e motivações políticas e/ou atuantes de uma causa social.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Gray Hats</button></h4></ul><li class="drop_txt"><p class="txt">onsiderado uma mistura dos Black e White Hats, os Gray Hats não se baseiam completamente em critérios éticos para realizar invasões digitais, mas também não possuem más intenções. Suas motivações podem ser, por exemplo, curiosidade, desafio, ou simplesmente boa vontade para alertar os proprietários do sistema a falta de segurança da rede. Entretanto, a falta de um aviso e um contrato podem levar o especialista a cometer um crime.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">White Hats</button></h4></ul><li class="drop_txt" id='White Hats'><p class="txt">Também conhecidos como Hackers éticos, os White Hats são profissionais autorizados e pagos para procurar vulnerabilidades no sistema do contratante. Baseando-se em critérios éticos para não invadir a privacidade dos usuários daquela rede, eles usam suas metodologias, como testes de invasão, para identificar brechas que possibilitam ações maliciosas de outros hackers.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Black Hats</button></h4></ul><li class="drop_txt" id="Black Hats"><p class="txt">Assim como aqueles retratados em filmes e séries, os Black Hats são aqueles invasores mal intencionados que trabalham para modificar e destruir dados, distribuir vírus e comercializar dados pessoais. O objetivo da realizações desses crimes podem estar atrelados à obtenção de dinheiro, diversão e motivações políticas e/ou atuantes de uma causa social.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Gray Hats</button></h4></ul><li class="drop_txt" id="Gray Hats"><p class="txt">Considerado uma mistura dos Black e White Hats, os Gray Hats não se baseiam completamente em critérios éticos para realizar invasões digitais, mas também não possuem más intenções. Suas motivações podem ser, por exemplo, curiosidade, desafio, ou simplesmente boa vontade para alertar os proprietários do sistema a falta de segurança da rede. Entretanto, a falta de um aviso e um contrato podem levar o especialista a cometer um crime.</p></li>
         </li>
     </ul>
     
     <h3><strong>Exemplos</strong></h3>
     <ul class="drop_list">
         <li class="drop_item">
-            <ul><h4><button type="button" class="drop_btn" onclick="">Crackers</button></h4></ul><li class="drop_txt"><p class="txt">Um crackers é o melhor exemplo de um Black Hat. Os códigos escritos por crackers são extremamente hostis e invadem sistemas para roubar informações, expalhar vírus e destruir pastas.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Hactivistas</button></h4></ul><li class="drop_txt"><p class="txt">A origem dessa nomenclatura se dá a partir da junção das palavras "Hacker" e "Ativista", de forma a explicar os invasores atuam motivados por questões politicas ou sociais, e buscam promover suas causas.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Script Hackers</button></h4></ul><li class="drop_txt"><p class="txt">Script Kiddies são pessoas, geralmente jovens, que possuem pouco conhecimento sobre computação e tecnologia e, por isso, exploram de recursos criados por especialistas para invadir redes e causar danos, ainda que de forma conciente ou não. Curiosamente, pesquisadores sugerem que a justificativa mais comum para essas atividades é o tédio.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Crackers</button></h4></ul><li class="drop_txt" id="Crackers"><p class="txt">Um crackers é o melhor exemplo de um Black Hat. Os códigos escritos por crackers são extremamente hostis e invadem sistemas para roubar informações, expalhar vírus e destruir pastas.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Hactivistas</button></h4></ul><li class="drop_txt" id="Hactivistas"><p class="txt">A origem dessa nomenclatura se dá a partir da junção das palavras "Hacker" e "Ativista", de forma a explicar os invasores atuam motivados por questões politicas ou sociais, e buscam promover suas causas.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Script Hackers</button></h4></ul><li class="drop_txt" id="Script Hackers"><p class="txt">Script Kiddies são pessoas, geralmente jovens, que possuem pouco conhecimento sobre computação e tecnologia e, por isso, exploram de recursos criados por especialistas para invadir redes e causar danos, ainda que de forma conciente ou não. Curiosamente, pesquisadores sugerem que a justificativa mais comum para essas atividades é o tédio.</p></li>
         </li>
     </ul>
 
@@ -42,15 +41,15 @@
     <p>Clique para descobrir mais!</p>
     <ul class="drop_list">
         <li class="drop_item">
-            <ul><h4><button type="button" class="drop_btn" onclick="">Malware</button></h4></ul><li class="drop_txt"><p class="txt">É uma forma de malware em que qualquer arquivo ou programa pode ser usado para danificar o computador de um usuário. Diferentes tipos de malware incluem worms, vírus, cavalos de Tróia e spyware.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Ransomware</button></h4></ul><li class="drop_txt"><p class="txt">É um tipo de malware no qual os invasores bloqueiam os arquivos do sistema do computador da vítima, geralmente por meio de criptografia, e exigem um pagamento para descriptografar e desbloquear esses arquivos.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Engenharia social</button></h4></ul><li class="drop_txt"><p class="txt">É um ataque que depende da interação humana. Ele engana os usuários para que violem os procedimentos de segurança para obter informações confidenciais normalmente protegidas.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Phishing</button></h4></ul><li class="drop_txt"><p class="txt">É uma forma de engenharia social na qual são enviados e-mails ou mensagens de texto fraudulentas que parecem vir de uma fonte confiável ou conhecida. As mensagens de phishing costumam ser ataques aleatórios projetados para roubar dados confidenciais, como cartão de crédito ou informações de login.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">Spear phishing</button></h4></ul><li class="drop_txt"><p class="txt">É um tipo de phishing direcionado a um usuário, organização ou empresa. Uma ameaça interna é uma violação ou perda de segurança causada por um ser humano, como um funcionário, contratado ou cliente. As ameaças internas podem ser de natureza maliciosa ou negligente.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">DDoS</button></h4></ul><li class="drop_txt"><p class="txt">Um 'ataque distribuído de negação de serviço', conhecido como DDoS, é aquele em que vários sistemas interrompem o tráfego para um sistema alvo, como um servidor, site ou outro recurso de rede. Ao enviar um grande número de mensagens, solicitações de conexão ou pacotes a um alvo, um ataque DDoS pode desacelerar ou travar um sistema, impedindo que tráfego legítimo utilize o sistema.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">APTs</button></h4></ul><li class="drop_txt"><p class="txt">As ameaças persistentes avançadas (APTs) são ataques persistentes e direcionados nos quais um invasor se infiltra em uma rede e não é detectado por um longo período de tempo. O objetivo de um APT é roubar dados.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">MitM</button></h4></ul><li class="drop_txt"><p class="txt">Um ataque man-in-the-middle (MitM) é um ataque de espionagem em que um invasor intercepta e encaminha mensagens entre duas partes que acreditam estar se comunicando.</p></li>
-            <ul><h4><button type="button" class="drop_btn" onclick="">SQL Injection</button></h4></ul><li class="drop_txt"><p class="txt">É uma técnica na qual um invasor obtém acesso ao banco de dados de uma aplicação web adicionando uma série de códigos SQL(linguagem de programação para armazenar e processar informações em um banco de dados relacional.)  maliciosos a uma consulta ao banco de dados.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Malware</button></h4></ul><li class="drop_txt" id="Malware"><p class="txt">É uma forma de malware em que qualquer arquivo ou programa pode ser usado para danificar o computador de um usuário. Diferentes tipos de malware incluem worms, vírus, cavalos de Tróia e spyware.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Ransomware</button></h4></ul><li class="drop_txt" id="Ransomware"><p class="txt">É um tipo de malware no qual os invasores bloqueiam os arquivos do sistema do computador da vítima, geralmente por meio de criptografia, e exigem um pagamento para descriptografar e desbloquear esses arquivos.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Engenharia social</button></h4></ul><li class="drop_txt" id="Engenharia social"><p class="txt">É um ataque que depende da interação humana. Ele engana os usuários para que violem os procedimentos de segurança para obter informações confidenciais normalmente protegidas.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Phishing</button></h4></ul><li class="drop_txt" id="Phishing"><p class="txt">É uma forma de engenharia social na qual são enviados e-mails ou mensagens de texto fraudulentas que parecem vir de uma fonte confiável ou conhecida. As mensagens de phishing costumam ser ataques aleatórios projetados para roubar dados confidenciais, como cartão de crédito ou informações de login.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Spear phishing</button></h4></ul><li class="drop_txt" id="Spear phishing"><p class="txt">É um tipo de phishing direcionado a um usuário, organização ou empresa. Uma ameaça interna é uma violação ou perda de segurança causada por um ser humano, como um funcionário, contratado ou cliente. As ameaças internas podem ser de natureza maliciosa ou negligente.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">DDoS</button></h4></ul><li class="drop_txt" id="DDoS"><p class="txt">Um 'ataque distribuído de negação de serviço', conhecido como DDoS, é aquele em que vários sistemas interrompem o tráfego para um sistema alvo, como um servidor, site ou outro recurso de rede. Ao enviar um grande número de mensagens, solicitações de conexão ou pacotes a um alvo, um ataque DDoS pode desacelerar ou travar um sistema, impedindo que tráfego legítimo utilize o sistema.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">APTs</button></h4></ul><li class="drop_txt" id="APTs"><p class="txt">As ameaças persistentes avançadas (APTs) são ataques persistentes e direcionados nos quais um invasor se infiltra em uma rede e não é detectado por um longo período de tempo. O objetivo de um APT é roubar dados.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">MitM</button></h4></ul><li class="drop_txt" id="MitM"><p class="txt">Um ataque man-in-the-middle (MitM) é um ataque de espionagem em que um invasor intercepta e encaminha mensagens entre duas partes que acreditam estar se comunicando.</p></li>
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">SQL Injection</button></h4></ul><li class="drop_txt" id="SQL Injection"><p class="txt">É uma técnica na qual um invasor obtém acesso ao banco de dados de uma aplicação web adicionando uma série de códigos SQL(linguagem de programação para armazenar e processar informações em um banco de dados relacional.)  maliciosos a uma consulta ao banco de dados.</p></li>
         </li>
     </ul>
 
@@ -78,9 +77,10 @@
     </ul>
 
     <h2>Profissões em Cibersecurity</h2>
+    <p>Clique para descobrir mais!</p>
     <ul class="drop_list">
         <li class="drop_item">
-            <ul><h4><button type="button" class="drop_btn" onclick="">Red Team</button></h4></ul><li class="drop_txt"><div class="txt">
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Red Team</button></h4></ul><li class="drop_txt" id="Red Team"><div class="txt">
                 <h4>Definição</h4>
                 <p>Equipe de hackers que planejam, definem, executam e analisam testes de ataque cibernético aos sistemas de uma empresa contratante, com o objetivo principal de procurar brechas na segurança e melhorá-la.</p>
                 <h4>Atividades</h4>
@@ -97,7 +97,7 @@
                 </ul>
             </div></li>
 
-            <ul><h4><button type="button" class="drop_btn" onclick="">Blue Team</button></h4></ul><li class="drop_txt"><div class="txt">
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Blue Team</button></h4></ul><li class="drop_txt" id="Blue Team"><div class="txt">
                 <h4>Definição</h4>
                 <p>Profissionais especializados na defesa e proteção de sistemas e dados da empresa ou organização contratante. Um integrante do Blue Team deve fazer a manutenção e manter funcinando as ferramentas de proteção do sistema.</p>
                 <h4>Atividades</h4>
@@ -115,7 +115,7 @@
                 </ul>
             </div></li>
 
-            <ul><h4><button type="button" class="drop_btn" onclick="">Forense Cibernético</button></h4></ul><li class="drop_txt"><div class="txt">
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">Forense Cibernético</button></h4></ul><li class="drop_txt" id="Forense Cibernético"><div class="txt">
                 <h4>Definição</h4>
                 <p>Um forense cibernético é o profissional que analisa e investiga ocorrências e/ou suspeitas de atos criminosos num sistema digital, analisando evidências coletadas. Seu objetivo principal é identificar as causas, procurar os responsáveis e coletar informações que possam ser usadas em processos judiciais.</p>
                 <h4>Atividades</h4>
@@ -133,7 +133,7 @@
                 </ul>
             </div></li>
 
-            <ul><h4><button type="button" class="drop_btn" onclick="">GRC: Governança, risco e conformidade</button></h4></ul><li class="drop_txt"><div class="txt">
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">GRC: Governança, risco e conformidade</button></h4></ul><li class="drop_txt" id="GRC: Governança, risco e conformidade"><div class="txt">
                 <h4>Definição</h4>
                 <p>Um profissional em GRC deve integrar, coordenar e supervisionar os processos de cibersegurança dentro de uma empresa. O objetivo principal dessa área é garantir que as empresas estejam protegidas contra ataques, dentro da legalidade local e buscando bater suas metas.</p>
                 <h4>Atividades</h4>
@@ -150,7 +150,7 @@
                 </ul>
             </div></li>
 
-            <ul><h4><button type="button" class="drop_btn" onclick="">DevSecOps</button></h4></ul><li class="drop_txt"><div class="txt">
+            <ul><h4><button type="button" class="drop_btn" onclick="abrir(this)">DevSecOps</button></h4></ul><li class="drop_txt" id="DevSecOps"><div class="txt">
                 <h4>Definição</h4>
                 <p>Abraviação para <i>Development, Security and Operations</i>, um agente DevSecOps deve trabalhar em conjunto com equipes de desenvolvimento e operações para garantir que um software seja construído da forma mais segura e eficiente possível.</p>
                 <h4>Atividades</h4>
@@ -177,6 +177,11 @@
         <li><i>Prasad, S. T. (2014). Ethical hacking and types of hackers. International Journal of Emerging Technology in Computer Science & Electronics, 11(2):24-27.</i></li>
         <li><i>Sheenan, J. and Dunckley, L. Computer viruses and younger users-who are the script kiddies?</i></li>
         <li><i>Stukart, H. L. (2003). Ética e corrupção. NBL Editora.</i></li>
+        <li><a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-ransomware.html" target="_blank">Cisco.com</a></li>
+        <li><a href="https://www.f-secure.com/en/articles/why-do-hackers-want-your-personal-information" target="_blank">f-secure.com</a></li>
+        <li><a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security" target="_blank">Simplilearn.com</a></li>
+        <li><a href="https://aws.amazon.com/pt/what-is/sql/#:~:text=à%20aplicação%20solicitante.-,O%20que%20são%20comandos%20SQL%3F,um%20banco%20de%20dados%20relacional" target="_blank">AWS.amazon.com</a></li>
+        <li><a href="https://www.techtarget.com/searchsecurity/definition/cybersecurity" target="_blank">Techtarget.com</a></li>
     </ul>
 
     <script src="main.js"></script>
